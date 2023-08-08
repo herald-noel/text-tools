@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #F6F4EB;
+    font-family: Helvetica, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 200px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+main > div {
+    margin: 5px 20px 20px;
+}
+
+main button {
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.brand-text {
+    text-transform: lowercase;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+textarea {
+    height: 400px;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 60%;
+}
