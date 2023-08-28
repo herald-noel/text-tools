@@ -16,7 +16,7 @@ document.getElementById("tc").addEventListener("click", () => {
     //knee son text tools
     .split(" ")
     //['knee','son', 'text', 'tools']
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowercase())
     //['K'+'nee','S'+'on', 'T'+'ext', 'T'+'ools']
     .join(" ");
     //'Knee'+' '+'Son'+''+'Text'+''+'Tools'
