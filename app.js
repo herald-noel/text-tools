@@ -12,14 +12,13 @@ document.getElementById("uc").addEventListener("click", () => {
 
 document.getElementById("tc").addEventListener("click", () => {
   const text = textarea.value;
-
-  //knee son text tools
-  //['knee','son', 'text', 'tools']
-  //['K'+'nee','S'+'on', 'T'+'ext', 'T'+'ools']
-  //'Knee'+' '+'Son'+''+'Text'+''+'Tools'
   
   textarea.value = text
+    //knee son text tools
     .split(" ")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowercase())
+    //['knee','son', 'text', 'tools']
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    //['K'+'nee','S'+'on', 'T'+'ext', 'T'+'ools']
     .join(" ");
+    //'Knee'+' '+'Son'+''+'Text'+''+'Tools'
 });
