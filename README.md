@@ -10,8 +10,6 @@ A simple web app that allows users to transform text between different formats: 
 
 ## Description
 
-Please run Text Tools on this website: [https://knee-son.github.io/text-tools/](https://knee-son.github.io/text-tools/)
-
 Text Tools is a basic web application built using HTML, CSS, and JavaScript. It provides a user-friendly interface where users can input text into a textarea and then transform it to lower case, UPPER CASE, or Title Case by clicking on the corresponding buttons.
 
 ## Usage
@@ -31,3 +29,4 @@ To run the Text Tools web app locally, follow these steps:
 
    ```sh
    git clone https://github.com/your-username/text-tools.git
+   ```
